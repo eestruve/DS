@@ -27,7 +27,6 @@ for j in range(2):
             time.sleep(20)
             k = 0
         else:
-            print(k)
             objectID = i.get('objId')
             url1 = f'https://xn--80az8a.xn--d1aqf.xn--p1ai/%D1%81%D0%B5%D1%80%D0%B2%D0%B8%D1%81%D1%8B/api/object/{objectID}'
             res1 = requests.get(url1)
